@@ -27,7 +27,7 @@ Donji grafikon prikazuje rasprostranjenost metana u ovisnosti o dubini bušenja.
 ### Satelitsko mapiranje terena
 Završna mapa koristi tehnički koncept *extent* mapiranja granica. Pomoću ovog koncepta, raspršeni podaci s telemetrijskih senzora kontekstualno su pozicionirani na stvarne GPS koordinate kratera Jezero preko satelitske snimke visoke rezolucije. To je presudno za pouzdanu orijentaciju i planiranje putanje robota.
 
-![Satelitska mapa kratera Jezero](assets/assets/graph5_jezero_mission_map(3).jpg)
+![Satelitska mapa kratera Jezero](assets/graph5_jezero_mission_map(3).jpg)
 
 ## E. Komunikacijski protokol (JSON Uplink)
 Prijenos instrukcija prema robotskom modulu vrši se putem standardiziranog mrežnog paketa. Kako bismo izbjegli ručno kodiranje (hardcoding), primijenili smo Python petlje za iterativno čitanje izračunatih koordinata i automatizirano generiranje naredbi.
