@@ -22,7 +22,7 @@ Geoprostorna analiza predstavlja središnji dokaz ispravnosti našeg modela.
 ### Korelacija parametara i metan
 Donji grafikon prikazuje rasprostranjenost metana u ovisnosti o dubini bušenja. Ovi rezultati su nam omogućili prepoznavanje geološki najperspektivnijih zona za slanje robota.
 
-![Korelacija koncentracije metana i dubine](assets/graph5_jezero_mission_map (3).jpg)
+![Korelacija koncentracije metana i dubine](assets/graph5_jezero_mission_map(3).jpg)
 
 ### Satelitsko mapiranje terena
 Završna mapa koristi tehnički koncept *extent* mapiranja granica. Pomoću ovog koncepta, raspršeni podaci s telemetrijskih senzora kontekstualno su pozicionirani na stvarne GPS koordinate kratera Jezero preko satelitske snimke visoke rezolucije. To je presudno za pouzdanu orijentaciju i planiranje putanje robota.
