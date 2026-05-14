@@ -5,8 +5,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-df_uzorci = pd.read_csv('moji_mars_podaci/mars_uzorci.csv', sep = ';', decimal = ',')
-df_lokacija = pd.read_csv('moji_mars_podaci/mars_lokacije.csv', sep = ';', decimal = ',')
+df_uzorci = pd.read_csv('data/mars_uzorci.csv', sep = ';', decimal = ',')
+df_lokacija = pd.read_csv('data/mars_lokacije.csv', sep = ';', decimal = ',')
 
 df_spojeno = pd.merge(
         df_lokacija,
@@ -33,7 +33,7 @@ plt.xlabel('Temperatura tla (C)')
 plt.ylabel('Vlaga (%)')
 
 # Spremanje datoteke
-plt.savefig('graph1_temp_h2o.png')
+plt.savefig('assets/graph1_temp_h2o.png')
 plt.close()
 
 # Prostorna raspodjela dubine bušenja
@@ -51,7 +51,7 @@ plt.xlabel('Geografska dužina (Longitude)')
 plt.ylabel('Geografska širina (Latitude)')
 
 # Spremanje datoteke
-plt.savefig('graph2_heatmap_depth.png')
+plt.savefig('assets/graph2_heatmap_depth.png')
 plt.close()
 
 # Lokacije pozitivne detekcije metana
@@ -69,7 +69,7 @@ plt.xlabel('Geografska dužina (Longitude)')
 plt.ylabel('Geografska širina (Latitude)')
 
 # Spremanje datoteke
-plt.savefig('graph3_methane_scatter.png')
+plt.savefig('assets/graph3_methane_scatter.png')
 plt.close()
 
 # Geografska analiza uzoraka u krateru Jezero
@@ -97,7 +97,7 @@ plt.ylabel('Geografska širina (Latitude)')
 
 # Spremanje datoteke
 
-plt.savefig('graph4_scatter_plot.png')
+plt.savefig('assets/graph4_scatter_plot.png')
 plt.close()
 
 # Završna mapa misije (Satelitski prikaz Jezero Kratera)
@@ -139,7 +139,7 @@ plt.ylabel('Geografska širina (Latitude)')
 
 # Spremanje datoteke
 
-plt.savefig('graph5_jezero_mission_map.jpg')
+plt.savefig('assets/graph5_jezero_mission_map(3).jpg')
 plt.close()
 
 
