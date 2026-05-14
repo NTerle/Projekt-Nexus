@@ -15,6 +15,7 @@ Proces pripreme podataka zahtijevao je primjenu specifičnih logičkih uvjeta na
 * **Uklanjanje senzorskog šuma:** Identificirane su i eliminirane ekstremne temperaturne vrijednosti koje izlaze izvan operativnih specifikacija opreme. 
 * **Sanacija kemijskih anomalija:** Uklonjena su očitanja s nerealnim pH vrijednostima koja su ukazivala na pogrešku u kalibraciji instrumenata.
 Ova metodologija je neophodna jer navigacijski algoritmi moraju počivati isključivo na validnim i čistim podacima.
+* **Izračunata prosječna temperatura**: -49.22°C
 
 ## D. Geoprostorna analiza i vizualizacija
 Geoprostorna analiza predstavlja središnji dokaz ispravnosti našeg modela. 
