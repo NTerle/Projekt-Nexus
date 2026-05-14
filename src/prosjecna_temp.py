@@ -13,6 +13,7 @@ df_spojeno = pd.merge(
         on='ID_Uzorka'
 )
 df_filtrirano = df_spojeno[df_spojeno['Temp_Tla_C'] < 150]
-ukupna_temp = 0
-for i in range(0,len(df_filtrirano)):
-  
+
+# Izračun prosječne temperature
+prosjecna_temp = df_filtrirano['Temp_Tla_C'].mean()
+print(f"Prosječna temperatura: {prosjecna_temp:.2f}°C")
